@@ -7,13 +7,13 @@ module.exports = {
     filename: "bundle.js"
   },
   devServer: {
-    contentBase: path.resolve(__dirname, "piblic")
+    contentBase: path.resolve(__dirname, "public")
   },
   module: {
     rules: [
       {
         test: /\.js$/,
-        exclude: /node_mudoles/,
+        exclude: /node_modules/,
         use: {
           loader: "babel-loader"
         }
