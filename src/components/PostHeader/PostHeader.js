@@ -1,7 +1,6 @@
 import React from "react";
 
 const PostHeader = ({ users }) => (
-  // <h1>{user.name}</h1>
   <div>
     {users.map(user => (
       <div>
