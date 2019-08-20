@@ -25,6 +25,7 @@ header {
   padding: 10px;
 
   .postheader {
+    margin: 10px;
   }
 
   .itens {
@@ -35,8 +36,9 @@ header {
 
     img {
       float: left;
-      width: 12%;
+      width: 8%;
       border-radius: 100px;
+      margin-right: 10px;
     }
     h1 {
       font-size: 24px;
@@ -50,6 +52,6 @@ header {
 
   .mensage {
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
   }
 }
